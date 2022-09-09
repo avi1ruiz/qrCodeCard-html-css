@@ -1,0 +1,42 @@
+/*Configuracion general*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+:root {
+    --lightgray: hsl(212, 45%, 89%);
+    --grayishblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+}
+
+body {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    background: var(--lightgray);
+}
+
+p {font-size: 15px; color: var(--grayishblue); text-align: center;}
+h1 {font-size: 20px; color: var(--darkblue); text-align: center;}
+
+/*Componente principal*/
+.component {
+    padding: 1rem;
+    background: white;
+    border-radius: 1rem;
+    width: 18rem;
+}
+.qrcode {
+    border-radius: 0.6rem;
+    width: 16rem;
+}
+
+.title, .subtitle {margin: 1rem;}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
